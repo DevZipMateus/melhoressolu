@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 import { cn } from '@/lib/utils';
 const ContactSection = () => {
-  return <section id="contato" className="py-16 bg-gradient-to-b from-secondary/40 to-white">
+  return <section id="contato" className="py-16 bg-gradient-to-b from-secondary/60 to-white">
       <div className="section-container">
         <AnimatedSection>
           <h2 className="section-title">Entre em Contato</h2>
