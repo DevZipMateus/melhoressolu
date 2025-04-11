@@ -16,15 +16,15 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Primary color (30%) - Black */
-    --primary: 0 0% 15%;
+    /* Primary color - Black */
+    --primary: 0 0% 0%;
     --primary-foreground: 210 40% 98%;
 
-    /* Secondary color (10%) - Yellow */
+    /* Secondary color - Yellow */
     --secondary: 45 100% 50%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary-foreground: 0 0% 0%;
 
-    /* Accent color (60%) - White with yellow undertone */
+    /* Accent color - White with yellow undertone */
     --accent: 45 30% 96%;
     --accent-foreground: 222.2 47.4% 11.2%;
 

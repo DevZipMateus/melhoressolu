@@ -1,5 +1,5 @@
 
-import { Code, LineChart, FileText, Users, Server, Database } from 'lucide-react';
+import { Code, Wrench, Package, Laptop, HeartHandshake } from 'lucide-react';
 import ServiceCard from './ServiceCard';
 import AnimatedSection from './AnimatedSection';
 
@@ -8,32 +8,55 @@ const ServicesSection = () => {
     {
       icon: Code,
       title: 'Desenvolvimento de Sistemas',
-      description: 'Criação de sistemas próprios sob medida para atender as necessidades específicas do seu negócio.'
+      description: 'Criação de sistemas personalizados conforme a necessidade do cliente. Aplicações desktop, web ou híbridas, com integração e manutenção.',
+      details: [
+        'Criação de sistemas personalizados conforme a necessidade do cliente',
+        'Aplicações desktop (Windows), web ou híbridas',
+        'Integração com APIs e bancos de dados',
+        'Manutenção e evolução de sistemas existentes'
+      ]
     },
     {
-      icon: LineChart,
+      icon: Wrench,
       title: 'Consultoria em Software',
-      description: 'Análise e otimização de processos internos através de soluções tecnológicas adequadas ao seu negócio.'
+      description: 'Diagnóstico de processos, recomendação de ferramentas tecnológicas e apoio na implantação de sistemas de terceiros.',
+      details: [
+        'Diagnóstico de processos e fluxos internos',
+        'Recomendação de ferramentas tecnológicas adequadas',
+        'Apoio na escolha e implantação de sistemas de terceiros',
+        'Treinamento e orientação para equipes'
+      ]
     },
     {
-      icon: FileText,
-      title: 'Coordenação de Projetos',
-      description: 'Gestão completa de projetos de implementação e transição para novas soluções tecnológicas.'
+      icon: Package,
+      title: 'Implantação de Sistemas de Terceiros',
+      description: 'Suporte técnico e funcional em plataformas como eGestor, com parametrização, integração e treinamento de usuários.',
+      details: [
+        'Suporte técnico e funcional em ferramentas como eGestor',
+        'Parametrização, integração e configuração inicial',
+        'Treinamento de usuários e acompanhamento pós-implantação'
+      ]
     },
     {
-      icon: Server,
-      title: 'Suporte Técnico',
-      description: 'Assistência técnica especializada para garantir o funcionamento contínuo e eficiente dos sistemas.'
+      icon: Laptop,
+      title: 'Manutenção de Notebooks',
+      description: 'Formatação, reinstalação de sistemas, limpeza, upgrades e troca de peças para melhorar o desempenho dos equipamentos.',
+      details: [
+        'Formatação e reinstalação de sistemas operacionais',
+        'Limpeza, upgrades e melhoria de desempenho',
+        'Troca de peças (HD, SSD, memória, teclado, bateria, etc.)',
+        'Solução de falhas e lentidão em equipamentos'
+      ]
     },
     {
-      icon: Database,
-      title: 'Implantação de Sistemas',
-      description: 'Implementação, configuração e treinamento para novas plataformas e sistemas em sua empresa.'
-    },
-    {
-      icon: Users,
-      title: 'Representação de Plataformas',
-      description: 'Representação de plataformas consolidadas com suporte técnico e estratégico para sua empresa.'
+      icon: HeartHandshake,
+      title: 'Suporte Técnico e Relacionamento',
+      description: 'Atendimento personalizado com foco em resolução rápida e suporte remoto contínuo para garantir sua satisfação.',
+      details: [
+        'Atendimento personalizado com foco em resolução rápida',
+        'Suporte remoto contínuo e acompanhamento pós-entrega',
+        'Relacionamento próximo com cada cliente, com foco em parceria duradoura'
+      ]
     }
   ];
 
@@ -57,7 +80,8 @@ const ServicesSection = () => {
               <ServiceCard 
                 icon={service.icon} 
                 title={service.title} 
-                description={service.description} 
+                description={service.description}
+                details={service.details} 
               />
             </AnimatedSection>
           ))}

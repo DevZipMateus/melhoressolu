@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-y-0 right-0 w-1/2 bg-primary/5 skew-x-12 transform origin-bottom"></div>
         <div className="absolute top-1/4 left-1/4 w-32 h-32 md:w-64 md:h-64 rounded-full bg-primary/10"></div>
-        <div className="absolute bottom-1/3 right-1/3 w-32 h-32 md:w-40 md:h-40 rounded-full bg-blue-200/20"></div>
+        <div className="absolute bottom-1/3 right-1/3 w-32 h-32 md:w-40 md:h-40 rounded-full bg-secondary/20"></div>
       </div>
 
       <div className="container mx-auto px-4 z-10">
@@ -23,7 +23,7 @@ const HeroSection = () => {
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
               Melhores Soluções <br />
-              <span className="text-primary">em Sistemas</span>
+              <span className="text-secondary">em Sistemas</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-xl">
               Desenvolvimento de sistemas próprios sob medida, consultoria em software 
@@ -57,15 +57,15 @@ const HeroSection = () => {
             </div>
           </AnimatedSection>
           
-          <AnimatedSection animation="fade-in" delay={300} className="hidden md:block -mt-16">
-            <div className="relative">
+          <AnimatedSection animation="fade-in" delay={300} className="hidden md:flex justify-center items-center -mt-16">
+            <div className="relative w-full max-w-md">
               <div className="absolute -top-12 -left-8 w-64 h-64 bg-primary/10 rounded-full filter blur-xl"></div>
-              <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-200 rounded-full filter blur-xl"></div>
-              <div className="relative z-10 bg-white/80 backdrop-blur-sm shadow-xl rounded-2xl p-1 transform transition-all duration-500 hover:scale-[1.01] hover:shadow-2xl">
+              <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-secondary rounded-full filter blur-xl opacity-20"></div>
+              <div className="relative z-10 bg-black/80 backdrop-blur-sm shadow-xl rounded-2xl p-8 transform transition-all duration-500 hover:scale-[1.01] hover:shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80" 
-                  alt="Soluções em Sistemas" 
-                  className="rounded-2xl w-full h-auto object-cover"
+                  src="/lovable-uploads/34cf1d8f-b7e6-45d1-94ac-d5662cf6a45c.png" 
+                  alt="Melhores Soluções" 
+                  className="w-full h-auto object-contain"
                 />
               </div>
             </div>
