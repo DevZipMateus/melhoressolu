@@ -1,39 +1,39 @@
 
-import { Calculator, BarChart3, FileText, Users, PieChart, Building } from 'lucide-react';
+import { Code, LineChart, FileText, Users, Server, Database } from 'lucide-react';
 import ServiceCard from './ServiceCard';
 import AnimatedSection from './AnimatedSection';
 
 const ServicesSection = () => {
   const services = [
     {
-      icon: Calculator,
-      title: 'Contabilidade',
-      description: 'Serviços completos de contabilidade para empresas de todos os portes, com demonstrativos claros e precisos.'
+      icon: Code,
+      title: 'Desenvolvimento de Sistemas',
+      description: 'Criação de sistemas próprios sob medida para atender as necessidades específicas do seu negócio.'
     },
     {
-      icon: BarChart3,
-      title: 'Fiscal',
-      description: 'Gerenciamento de obrigações fiscais, apuração de impostos e planejamento tributário para otimizar a carga fiscal.'
+      icon: LineChart,
+      title: 'Consultoria em Software',
+      description: 'Análise e otimização de processos internos através de soluções tecnológicas adequadas ao seu negócio.'
     },
     {
       icon: FileText,
-      title: 'Departamento Pessoal',
-      description: 'Gestão completa da folha de pagamento, admissões, demissões e todas as rotinas trabalhistas.'
+      title: 'Coordenação de Projetos',
+      description: 'Gestão completa de projetos de implementação e transição para novas soluções tecnológicas.'
     },
     {
-      icon: Building,
-      title: 'Abertura de Empresa',
-      description: 'Auxílio completo na abertura, alteração ou encerramento de empresas, com agilidade e segurança.'
+      icon: Server,
+      title: 'Suporte Técnico',
+      description: 'Assistência técnica especializada para garantir o funcionamento contínuo e eficiente dos sistemas.'
     },
     {
-      icon: PieChart,
-      title: 'Consultoria Empresarial',
-      description: 'Análise financeira, planejamento estratégico e apoio na tomada de decisões para o crescimento do seu negócio.'
+      icon: Database,
+      title: 'Implantação de Sistemas',
+      description: 'Implementação, configuração e treinamento para novas plataformas e sistemas em sua empresa.'
     },
     {
       icon: Users,
-      title: 'Societário',
-      description: 'Elaboração e alteração de contratos sociais, atas e documentos societários conforme a legislação vigente.'
+      title: 'Representação de Plataformas',
+      description: 'Representação de plataformas consolidadas com suporte técnico e estratégico para sua empresa.'
     }
   ];
 
@@ -43,7 +43,7 @@ const ServicesSection = () => {
         <AnimatedSection>
           <h2 className="section-title">Nossos Serviços</h2>
           <p className="section-subtitle">
-            Oferecemos soluções completas para atender todas as necessidades da sua empresa
+            Soluções tecnológicas personalizadas para impulsionar o crescimento do seu negócio
           </p>
         </AnimatedSection>
 

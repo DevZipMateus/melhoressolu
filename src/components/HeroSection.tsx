@@ -19,15 +19,15 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
           <AnimatedSection animation="fade-in-up" className="space-y-6">
             <span className="inline-block text-sm font-semibold py-1 px-3 bg-primary/10 text-primary rounded-full">
-              Contabilidade Moderna e Eficiente
+              Tecnologia e Sistemas Personalizados
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-              Soluções Contábeis <br />
-              <span className="text-primary">para seu Negócio</span>
+              Melhores Soluções <br />
+              <span className="text-primary">em Sistemas</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-xl">
-              Oferecemos soluções contábeis completas, focadas em eficiência e tecnologia, 
-              para que você possa se concentrar no crescimento da sua empresa.
+              Desenvolvimento de sistemas próprios sob medida, consultoria em software 
+              e soluções tecnológicas para transformar a rotina da sua empresa.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <a href="#contato" className="btn-primary flex items-center gap-2">
@@ -41,12 +41,12 @@ const HeroSection = () => {
 
             <div className="pt-8 flex items-center gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">+500</div>
-                <div className="text-sm text-gray-600">Clientes Atendidos</div>
+                <div className="text-3xl font-bold text-primary">+100</div>
+                <div className="text-sm text-gray-600">Projetos Entregues</div>
               </div>
               <div className="h-12 w-px bg-gray-200"></div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">15+</div>
+                <div className="text-3xl font-bold text-primary">10+</div>
                 <div className="text-sm text-gray-600">Anos de Experiência</div>
               </div>
               <div className="h-12 w-px bg-gray-200"></div>
@@ -63,8 +63,8 @@ const HeroSection = () => {
               <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-200 rounded-full filter blur-xl"></div>
               <div className="relative z-10 bg-white/80 backdrop-blur-sm shadow-xl rounded-2xl p-1 transform transition-all duration-500 hover:scale-[1.01] hover:shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2011&q=80" 
-                  alt="Contabilidade Profissional" 
+                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80" 
+                  alt="Soluções em Sistemas" 
                   className="rounded-2xl w-full h-auto object-cover"
                 />
               </div>
