@@ -63,7 +63,7 @@ const AboutSection = () => {
             <div className="relative h-full flex items-center">
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-transform duration-300 h-full">
                 <img 
-                  src="https://images.unsplash.com/photo-1581092921461-7d65ca45ec9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80" 
+                  src="/placeholder.svg" 
                   alt="Tecnologia e desenvolvimento" 
                   className="w-full h-full object-cover"
                 />
