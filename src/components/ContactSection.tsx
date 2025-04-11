@@ -27,8 +27,16 @@ const ContactSection = () => {
                   </div>
                   <div className="ml-3">
                     <h4 className="text-base font-medium">Telefone</h4>
-                    <p className="text-sm text-gray-600">(11) 5555-5555</p>
-                    <p className="text-sm text-gray-600">(11) 98765-4321</p>
+                    <p className="text-sm text-gray-600">(64) 98403-1762</p>
+                    <a 
+                      href="https://wa.me/5564984031762" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center text-sm text-primary mt-1 hover:underline"
+                    >
+                      <img src="/whatsapp1.png" alt="WhatsApp" className="h-5 w-5 mr-1" />
+                      Fale pelo WhatsApp
+                    </a>
                   </div>
                 </div>
                 
@@ -39,8 +47,7 @@ const ContactSection = () => {
                   </div>
                   <div className="ml-3">
                     <h4 className="text-base font-medium">E-mail</h4>
-                    <p className="text-sm text-gray-600 break-words">contato@contabilify.com.br</p>
-                    <p className="text-sm text-gray-600 break-words">atendimento@contabilify.com.br</p>
+                    <p className="text-sm text-gray-600 break-words">melhoressolucoes@gmail.com</p>
                   </div>
                 </div>
                 
@@ -51,16 +58,25 @@ const ContactSection = () => {
                   </div>
                   <div className="ml-3">
                     <h4 className="text-base font-medium">Endereço</h4>
-                    <p className="text-sm text-gray-600">Av. Paulista, 1000 - Bela Vista</p>
-                    <p className="text-sm text-gray-600">São Paulo - SP, 01310-000</p>
+                    <p className="text-sm text-gray-600">Rua U10, Qd. 06, Lote 9B</p>
                   </div>
                 </div>
               </div>
               
-              <div className="mt-6 p-4 bg-secondary/20 rounded-lg">
-                <h4 className="text-lg font-medium mb-2">Horário de Atendimento</h4>
-                <p className="text-gray-600 text-sm">Segunda a Sexta: 9h às 18h</p>
-                <p className="text-gray-600 text-sm">Sábados: 9h às 13h</p>
+              <div className="mt-8">
+                <h4 className="text-lg font-medium mb-4">Nossa Localização</h4>
+                <div className="h-80 w-full rounded-lg overflow-hidden">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3850.8991451987707!2d-48.27931678255616!3d-18.165512500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a66653e54188bd%3A0x42bdb58ff47b80da!2sR.%20U-10%2C%209B%20-%20Jardim%20Pampulha%2C%20Uberl%C3%A2ndia%20-%20MG%2C%2038408-488!5e0!3m2!1spt-BR!2sbr!4v1681222456348!5m2!1spt-BR!2sbr" 
+                    width="100%" 
+                    height="100%" 
+                    style={{ border: 0 }} 
+                    allowFullScreen 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Localização da Melhores Soluções"
+                  ></iframe>
+                </div>
               </div>
             </div>
           </AnimatedSection>

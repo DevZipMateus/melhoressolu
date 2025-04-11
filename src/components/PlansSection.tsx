@@ -4,22 +4,22 @@ import AnimatedSection from './AnimatedSection';
 
 const PlansSection = () => {
   const plans = [{
-    title: "MEI",
-    price: "R$199",
-    description: "Ideal para Microempreendedores Individuais",
-    features: ["Declaração Anual (DASN-SIMEI)", "Emissão de guias (DAS)", "Suporte básico por e-mail", "Orientação fiscal"],
+    title: "Básico",
+    price: "Consulte",
+    description: "Para pequenas empresas",
+    features: ["Desenvolvimento de sistema básico", "Consultoria inicial", "Suporte técnico básico", "Manutenção de notebooks"],
     isPopular: false
   }, {
-    title: "Essencial",
-    price: "R$399",
-    description: "Perfeito para pequenas empresas",
-    features: ["Contabilidade completa", "Apuração de impostos", "Folha de pagamento (até 5 funcionários)", "Suporte por telefone e e-mail", "Relatórios trimestrais"],
+    title: "E-gestor",
+    price: "Consulte",
+    description: "Para micro e pequenas empresas",
+    features: ["Implantação completa do E-gestor", "Treinamento da equipe", "Parametrização personalizada", "Suporte técnico dedicado", "Integrações básicas"],
     isPopular: true
   }, {
     title: "Empresarial",
-    price: "R$799",
+    price: "Consulte",
     description: "Para empresas em crescimento",
-    features: ["Contabilidade completa", "Planejamento tributário", "Folha de pagamento (até 15 funcionários)", "Consultoria mensal", "Relatórios gerenciais mensais", "Atendimento prioritário"],
+    features: ["Sistema personalizado completo", "Consultoria avançada", "Suporte técnico prioritário", "Integrações completas", "Treinamento avançado", "Manutenção preventiva"],
     isPopular: false
   }];
 
