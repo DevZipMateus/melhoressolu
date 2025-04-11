@@ -3,13 +3,18 @@ import { CheckCircle } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 
 const AboutSection = () => {
-  const features = [
-    'Equipe altamente qualificada',
-    'Atendimento personalizado',
-    'Tecnologia de ponta',
-    'Confidencialidade e segurança',
-    'Suporte contínuo',
-    'Atualizações fiscais constantes'
+  const diferenciais = [
+    'Atendimento próximo, direto com quem entende do assunto',
+    'Soluções personalizadas de acordo com o porte e necessidade do cliente',
+    'Experiência prática com pequenas empresas e seus desafios reais',
+    'Compromisso com simplicidade, eficiência e resultado'
+  ];
+
+  const servicos = [
+    'Desenvolvimento de sistemas próprios sob medida',
+    'Consultoria em software para melhorar processos internos',
+    'Coordenação de projetos e apoio na implantação de novas soluções',
+    'Representação de plataformas consolidadas, com suporte técnico e estratégico'
   ];
 
   return (
@@ -18,7 +23,7 @@ const AboutSection = () => {
         <AnimatedSection>
           <h2 className="section-title">Sobre Nós</h2>
           <p className="section-subtitle">
-            Conheça nossa história e nosso compromisso com a excelência em serviços contábeis
+            Soluções em Sistemas
           </p>
         </AnimatedSection>
 
@@ -40,26 +45,46 @@ const AboutSection = () => {
           
           <AnimatedSection animation="fade-in-up" className="space-y-6">
             <span className="inline-block text-sm font-semibold py-1 px-3 bg-primary/10 text-primary rounded-full">
-              Nossa História
+              Sobre a Melhores Soluções Ltda
             </span>
-            <h3 className="text-3xl font-bold">Compromisso com a sua empresa</h3>
+            <h3 className="text-3xl font-bold">Compromisso com o seu negócio</h3>
             <p className="text-gray-600">
-              Fundada em 2005, nossa empresa de contabilidade tem se destacado pela excelência 
-              em serviços contábeis, fiscais e empresariais. Ao longo de mais de 15 anos, 
-              construímos uma sólida reputação baseada em confiança, transparência e resultados.
+              A Melhores Soluções Ltda nasceu da experiência de um profissional apaixonado por tecnologia e motivado a transformar a rotina de pequenas empresas por meio de soluções práticas, eficientes e acessíveis.
             </p>
             <p className="text-gray-600">
-              Nossa equipe é formada por profissionais experientes e altamente qualificados, 
-              sempre atualizados com as mais recentes mudanças na legislação e práticas contábeis.
+              Com uma trajetória sólida em desenvolvimento de sistemas, consultoria em software e coordenação de projetos, a empresa foi criada com um propósito claro: Entender a fundo a realidade de cada cliente e oferecer as melhores soluções, capazes de gerar resultados concretos e fazer real diferença no dia a dia dos negócios.
             </p>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-4">
-              {features.map((feature) => (
-                <div key={feature} className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
-                  <span className="text-gray-700">{feature}</span>
-                </div>
-              ))}
+            <div className="pt-4">
+              <h4 className="text-xl font-semibold mb-3">:: Nossos Diferenciais</h4>
+              <div className="grid grid-cols-1 gap-3">
+                {diferenciais.map((diferencial) => (
+                  <div key={diferencial} className="flex items-center gap-2">
+                    <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-gray-700">{diferencial}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            
+            <div>
+              <h4 className="text-xl font-semibold mb-3">:: O que fazemos</h4>
+              <div className="grid grid-cols-1 gap-3">
+                {servicos.map((servico) => (
+                  <div key={servico} className="flex items-center gap-2">
+                    <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-gray-700">{servico}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            
+            <div>
+              <h4 className="text-xl font-semibold mb-2">:: Nosso Compromisso</h4>
+              <p className="text-gray-600">
+                Mais do que oferecer sistemas, queremos ser um parceiro para o crescimento do seu negócio.
+                Estamos aqui para simplificar, modernizar e impulsionar resultados — sempre com foco nas melhores soluções.
+              </p>
             </div>
             
             <a href="#contato" className="btn-primary inline-block mt-4">
