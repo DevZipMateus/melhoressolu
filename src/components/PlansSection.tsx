@@ -1,10 +1,7 @@
-
 import EgestorERP from './EgestorERP';
 import AnimatedSection from './AnimatedSection';
-
 const PlansSection = () => {
-  return (
-    <section id="planos" className="bg-white py-16">
+  return <section id="planos" className="bg-white py-0">
       <div className="section-container">
         <AnimatedSection>
           <h2 className="section-title">ERPeGestor</h2>
@@ -17,8 +14,6 @@ const PlansSection = () => {
           <EgestorERP />
         </AnimatedSection>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PlansSection;
