@@ -69,7 +69,7 @@ const Footer = () => {
                   <MapPin className="h-3 w-3" />
                 </div>
                 <div>
-                  <p>Rua U10, Qd. 06, Lote 9B</p>
+                  <p>Rua U10, Qd. 06, Lote 9B<br />Rio Verde/GO</p>
                 </div>
               </li>
             </ul>

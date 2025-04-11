@@ -1,3 +1,4 @@
+
 import { Mail, Phone, MapPin } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
 import { cn } from '@/lib/utils';
@@ -50,7 +51,7 @@ const ContactSection = () => {
                   </div>
                   <div className="ml-3">
                     <h4 className="text-base font-medium">Endereço</h4>
-                    <p className="text-sm text-gray-600">Rua U10, Qd. 06, Lote 9B</p>
+                    <p className="text-sm text-gray-600">Rua U10, Qd. 06, Lote 9B<br />Rio Verde/GO</p>
                   </div>
                 </div>
               </div>
