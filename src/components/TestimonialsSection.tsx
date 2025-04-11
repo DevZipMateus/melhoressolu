@@ -22,8 +22,6 @@ const TestimonialsSection = () => {
     role: "Gerente Administrativa",
     rating: 5
   }];
-  return <section id="depoimentos" className="py-24 bg-gradient-to-b from-white to-blue-50">
-      
-    </section>;
+  return;
 };
 export default TestimonialsSection;
