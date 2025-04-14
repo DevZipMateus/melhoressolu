@@ -1,37 +1,11 @@
 
-import { Facebook, Instagram, Linkedin, Phone, Mail, MapPin, Twitter, ArrowRight } from 'lucide-react';
-import { Button } from './ui/button';
+import { Instagram } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
     <footer className="bg-gray-900 text-white">
-      {/* Newsletter section */}
-      <div className="border-b border-gray-800">
-        <div className="container mx-auto px-4 py-12">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-            <div className="md:w-1/2">
-              <h3 className="text-2xl font-bold mb-2">Assine nossa newsletter</h3>
-              <p className="text-gray-400">Receba novidades e atualizações diretamente no seu email.</p>
-            </div>
-            <div className="md:w-1/2 w-full flex flex-col sm:flex-row gap-3">
-              <input 
-                type="email" 
-                placeholder="Seu melhor email" 
-                className="flex-grow px-4 py-3 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary"
-              />
-              <Button 
-                className="bg-secondary hover:bg-secondary/90 text-black font-medium flex items-center gap-2" 
-                size="lg"
-              >
-                Assinar <ArrowRight className="h-4 w-4" />
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
       {/* Main footer content */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -45,15 +19,6 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://www.facebook.com/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-secondary hover:text-black transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a 
                 href="https://www.instagram.com/melhores.solucoes/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -61,24 +26,6 @@ const Footer = () => {
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
-              </a>
-              <a 
-                href="https://www.linkedin.com/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-secondary hover:text-black transition-colors"
-                aria-label="Linkedin"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a 
-                href="https://twitter.com/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-secondary hover:text-black transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -91,32 +38,27 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-400">
               <li className="transition-transform hover:translate-x-1">
                 <a href="#serviços" className="hover:text-secondary transition-colors flex items-center gap-2">
-                  <ArrowRight className="h-4 w-4 text-secondary" />
-                  <span>Desenvolvimento de Sistemas</span>
+                  Desenvolvimento de Sistemas
                 </a>
               </li>
               <li className="transition-transform hover:translate-x-1">
                 <a href="#serviços" className="hover:text-secondary transition-colors flex items-center gap-2">
-                  <ArrowRight className="h-4 w-4 text-secondary" />
-                  <span>Consultoria em Software</span>
+                  Consultoria em Software
                 </a>
               </li>
               <li className="transition-transform hover:translate-x-1">
                 <a href="#serviços" className="hover:text-secondary transition-colors flex items-center gap-2">
-                  <ArrowRight className="h-4 w-4 text-secondary" />
-                  <span>Implantação de Sistemas</span>
+                  Implantação de Sistemas
                 </a>
               </li>
               <li className="transition-transform hover:translate-x-1">
                 <a href="#serviços" className="hover:text-secondary transition-colors flex items-center gap-2">
-                  <ArrowRight className="h-4 w-4 text-secondary" />
-                  <span>Manutenção de Notebooks</span>
+                  Manutenção de Notebooks
                 </a>
               </li>
               <li className="transition-transform hover:translate-x-1">
                 <a href="#serviços" className="hover:text-secondary transition-colors flex items-center gap-2">
-                  <ArrowRight className="h-4 w-4 text-secondary" />
-                  <span>Suporte Técnico</span>
+                  Suporte Técnico
                 </a>
               </li>
             </ul>
@@ -145,28 +87,19 @@ const Footer = () => {
             </h3>
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-start group">
-                <div className="w-10 h-10 mr-3 rounded-full bg-gray-800 flex items-center justify-center flex-shrink-0 group-hover:bg-secondary group-hover:text-black transition-colors">
-                  <Phone className="h-5 w-5" />
-                </div>
-                <div className="pt-1">
+                <div className="ml-3">
                   <p className="font-medium text-white group-hover:text-secondary transition-colors">(64) 98403-1762</p>
                   <p className="text-sm text-gray-500">Segunda a Sexta, 8h-18h</p>
                 </div>
               </li>
               <li className="flex items-start group">
-                <div className="w-10 h-10 mr-3 rounded-full bg-gray-800 flex items-center justify-center flex-shrink-0 group-hover:bg-secondary group-hover:text-black transition-colors">
-                  <Mail className="h-5 w-5" />
-                </div>
-                <div className="pt-1">
+                <div className="ml-3">
                   <p className="font-medium text-white group-hover:text-secondary transition-colors">melhoressolucoes@gmail.com</p>
                   <p className="text-sm text-gray-500">Atendimento online</p>
                 </div>
               </li>
               <li className="flex items-start group">
-                <div className="w-10 h-10 mr-3 rounded-full bg-gray-800 flex items-center justify-center flex-shrink-0 group-hover:bg-secondary group-hover:text-black transition-colors">
-                  <MapPin className="h-5 w-5" />
-                </div>
-                <div className="pt-1">
+                <div className="ml-3">
                   <p className="font-medium text-white group-hover:text-secondary transition-colors">Rua U10, Qd. 06, Lote 9B</p>
                   <p className="text-gray-500">Rio Verde/GO</p>
                 </div>
@@ -179,13 +112,6 @@ const Footer = () => {
           <p className="text-gray-400 text-sm">
             &copy; {currentYear} <span className="text-white">Melhores Soluções</span>. Todos os direitos reservados.
           </p>
-          <div className="mt-4 md:mt-0">
-            <ul className="flex items-center space-x-6 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-secondary transition-colors">Termos</a></li>
-              <li><a href="#" className="hover:text-secondary transition-colors">Privacidade</a></li>
-              <li><a href="#" className="hover:text-secondary transition-colors">Cookies</a></li>
-            </ul>
-          </div>
         </div>
       </div>
     </footer>
