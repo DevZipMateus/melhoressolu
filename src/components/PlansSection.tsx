@@ -4,7 +4,7 @@ const PlansSection = () => {
   return <section id="planos" className="bg-white py-0">
       <div className="section-container">
         <AnimatedSection>
-          <h2 className="section-title">ERPeGestor</h2>
+          <h2 className="section-title">eGestor</h2>
           <p className="section-subtitle">
             A solução completa para gestão do seu negócio
           </p>
